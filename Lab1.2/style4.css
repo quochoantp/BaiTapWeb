@@ -1,0 +1,52 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 1.5;
+}
+#main {
+	width: auto;
+	border: 3px solid green;
+	margin: 100px;
+	clear: both;
+
+}
+#left {
+	float: left;
+	width: 66.6666%;
+	height: 300px;
+	text-align: center;
+	display: table;
+}
+#middle{
+	display: table-cell;
+	vertical-align: middle;
+}
+#right {
+	float: right;
+	width: 33.33333%;
+	border: 0px solid black;
+	text-align: center;
+}
+
+table{
+	width: 100%;
+    border:1px solid black;
+    border-collapse:collapse;
+    text-align: left;
+}
+th{
+	width: 33.33333%;
+	border:1px solid black;
+	padding-left: 100px;
+}
+td{
+	border:1px solid black;
+	padding-left: 100px;
+}
+
+
+
+
