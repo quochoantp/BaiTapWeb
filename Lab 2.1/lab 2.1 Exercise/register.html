@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Thiết kế biểu mẫu</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="register.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        
+        <main>
+            <div class="container">
+                <div class="register-form">
+                    <form action="register.php" method="post">
+                        <h1>Thiết kế biểu mẫu</h1>
+                        <div class="input-box">
+                            <span>Tên:</span>
+                            <input type="text" placeholder="Tên bạn là gì?" name="ten">
+                        </div>
+                        <div class="input-box">
+                            <span>Lớp:</span>
+                            <input type="text" placeholder="Bạn đang học lớp nào?" name="lop">
+                        </div>
+                        <div class="input-box">
+                            <span>Trường:</span>
+                            <input type="text" placeholder="Trường đại học của bạn đang học là?" name="truong">
+                        </div>
+                        <div class="input-box">
+                            
+                            <div class="col-6">
+                                <label for="gioitinh">Giới tính</label>
+                                <br>
+                                <select id="gioitinh" name="gender" >
+                                    <option value="nam">Nam</option>
+                                    <option value="nu">Nữ</option>
+                                </select>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="input-box">
+                            <span>Sở thích</span>
+                            <br>
+                            <input type="checkbox" name="hob[]" value="1" id="xemphim"> 
+                            <label for="xemphim">Xem phim</label>
+                            <div class="margin_b"></div>
+                            <input type="checkbox" name="hob[]" value="2" id="nghenhac"> 
+                            <label for="nghenhac">Nghe nhạc</label>
+                            <div class="margin_b"></div>
+                            <input type="checkbox" name="hob[]" value="3" id="docsach"> 
+                            <label for="docsach">Đọc sách</label>
+                            <div class="margin_b"></div>
+                            <input type="checkbox" name="hob[]" value="4" id="choigame"> 
+                            <label for="choigame">Chơi game</label>
+                        </div>
+                        <div class="input-box">
+                            <label for="gioithieu">Giới thiệu bản thân</label>
+                            <br>
+                            <textarea id="gioithieu" name="gthieu"></textarea>
+                        </div>
+                        
+                        <div class="btn-box">
+                            <button type="submit" name="submit">
+                                submit
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+       
+    </body>
+</html>
