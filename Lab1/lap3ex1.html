@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script > 
+function changeColorTextxanh() {
+ 
+    var text = document.getElementById("para").style.color = "green";}
+
+function changeColorTextvang() {
+ 
+    var text = document.getElementById("para").style.color = "yellow";
+}
+
+function changeColorTextdo() {
+ 
+    var text = document.getElementById("para").style.color = "red";
+ 
+ 
+}
+ 
+function backToNormal() {
+ 
+    var text = document.getElementById("para").style.color = "";
+ 
+ 
+}
+</script>
+</head>
+<body>
+ 
+<p id="para" onmouseover="changeColorText()" onmouseout="backToNormal()"> Rê chuột qua nút để đổi màu văn bản </p>
+<button type=""  onmouseover="changeColorTextxanh()" onmouseout="backToNormal()" >Xanh</button>
+<button type="" onmouseover="changeColorTextvang()" onmouseout="backToNormal()"  >Vàng</button>
+<button type="" onmouseover="changeColorTextdo()" onmouseout="backToNormal()"    >Đỏ</button>
+ 
+</body>
+</html>
