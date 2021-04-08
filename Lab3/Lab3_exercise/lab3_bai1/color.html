@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		function mouseOver() {
+			document.getElementById("para").style.color = "red";
+		
+		}
+		function mouseOver1() {
+			document.getElementById("para").style.color = "green";
+		
+		}
+		function mouseOver2() {
+			document.getElementById("para").style.color = "blue";
+		
+		}
+		function mouseOut() {
+			document.getElementById("para").style.color = "black";
+		}
+	</script>
+	<style type="text/css">
+		* {
+			box-sizing: border-box;
+		}
+		.main {
+			width: 100%;
+		}
+		.label {
+			float: left;
+			width: 33.33%;
+			text-align: center;
+			padding: 20px;
+			font-size: 30px;
+		}
+		#para {
+			clear: both;
+			padding: 50px;
+		}
+	</style>
+</head>
+<body>
+	<div class="main" >
+		<div class="label" ><span onmouseover="mouseOver()" onmouseout="mouseOut()" style="color: red">Red</span></div>
+		<div class="label" ><span onmouseover="mouseOver1()" onmouseout="mouseOut()" style="color: green">Green</span></div>
+		<div class="label" ><span onmouseover="mouseOver2()" onmouseout="mouseOut()" style="color: blue">Blue</span></div>
+		<div id="para" >Write a simple HTML document called colors.html containing three colored links at the top of the page labeled RED, GREEN, and BLUE. Under the links there should be a small paragraph of text (you make this up) with a starting color of BLACK. Using onMouseOver and onMouseOut events of the links, when a user rolls over the each and any of the color labeled links, the color of the text in the paragraph below should change to the color corresponding to the link the user is hovering over. When the user rolls off the link, the color of the text should go back to it's starting color of BLACK</div>
+	</div>
+	
+
+</body>
+</html>
