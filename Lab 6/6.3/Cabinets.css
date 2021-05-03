@@ -1,0 +1,20 @@
+h1 {
+	text-align:center
+}
+p{
+	margin:0.25in;
+	border:0.25in solid black;
+	padding: 0.25in;
+	background:url(https://indainam.com/wp-content/uploads/2017/10/mau-background-don-gian-02-1024x768.jpg);
+	/* background-repeat: no-repeat; */
+}
+body{
+	/* background: url(https://indainam.com/wp-content/uploads/2017/10/mau-background-don-gian-02-1024x768.jpg); */
+	background-repeat: no-repeat;
+}
+.baner {
+	background: url(https://techkalzen.com/wp-content/uploads/2020/02/tron-bo-nhung-hinh-anh-dep-buon-mang-tam-trang-suy-tu-3.jpg);
+	background-repeat: no-repeat;
+	font-size:50pt;
+	font-family: Arial Rounded MT Bold
+}
