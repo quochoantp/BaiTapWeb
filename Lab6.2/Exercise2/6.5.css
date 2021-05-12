@@ -1,0 +1,23 @@
+#header {
+    background: red;
+    width: 100%;
+    color: #fff;
+}
+#sidebar {
+    background: yellow;
+    float: left;
+    width: 19%;
+    height: 500px;
+}
+#main {
+    background: #fff;
+    float: right;
+    width: 80%;
+    height: 500px;
+}
+#footer {
+    background: blue;
+    clear: both;
+    width: 100%;
+    color: #fff;
+}
