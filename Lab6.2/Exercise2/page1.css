@@ -1,0 +1,61 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+* {
+    box-sizing: border-box;
+}
+#header {
+    background: rgb(21, 97, 211);
+    width: 100%;
+    height: 10%;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    line-height: 60px;
+}
+#sidebar {
+    background: rgb(202, 211, 214);
+    float: right;
+    width: 19%;
+    height: 85%;
+    
+}
+#main {
+    float: left;
+    width: 80%;
+    height: 85%;
+    padding: 30px;
+}
+#footer {
+    background: rgb(21, 97, 211);
+    clear: both;
+    width: 100%;
+    height: 5%;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+}
+ul.navbar {
+    list-style-type: none;
+    padding: 15px;
+    margin: 0;
+    width: 70%;
+}
+ul.navbar li {
+    background: white;
+    margin: 0.8em 0;
+    padding: 0.5em;
+    border-right: 1em solid black;
+    
+}
+ul.navbar a {
+    text-decoration: none;
+}
+a:link {
+    color: blue;
+}
+a:visited {
+    color: purple;
+}
